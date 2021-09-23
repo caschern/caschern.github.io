@@ -5,7 +5,16 @@
 </head>
 <body>
 <h1>Cris's Github page (WIP)</h1>
-<p>┴┬┴┤( ͡° ͜ʖ├┬┴┬</p>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>┴┬┴┤( ͡° ͜ʖ├┬┴┬  Press Play, do it</p>
+<p>
+<div id="coverimageforplayer"><img class="introvideo" src="video-cover.jpg" width="800" height="450" /></div>
+</p>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script> 
+	$('#coverimageforplayer').click(function() {
+	var embedCode = <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>;
+  $('#coverimageforplayer').html(embedCode);
+  });
+</script>
 </body>
 </html>
