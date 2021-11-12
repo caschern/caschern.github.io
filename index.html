@@ -6,43 +6,60 @@
 </head>
 <body>
 <div style = "padding-top: 0px; padding-left: 15px; padding-bottom: 20px;">
-<h1 style = "text-align: center; font-size:50px;">Welcome to my Portfolio!</h1>
+<h1 class = "header1">Welcome to my Portfolio!</h1>
 </div>
 <div class="grid-container">
-	<div class="item2" style = "padding-left: 600px;"><img src="add.png" alt="me"></div>
-	<div class="item1" style = "padding-top: 250px; padding-right: 600px;">
-		<p style = "border: 0.5rem outset rgb(255, 255, 255);outline: 0.5rem solid dimgrey;box-shadow: 0 0 0 2rem dimgrey;border-radius: 12px;">
+	<div class="item1"><img src="add.png" alt="me"></div>
+	<div style="padding-top: 240px; padding-right: 30%;">
+		<p class = "item2">
 		Hi, my name is Cristian Casas. I am a soon to be undergrad in Computer Science from CUNY York College.
 		I am currently studying Data Science with CUNY Tech Prep. I am really enjoying the experience and am looking foward 
 		to learning new technologies that i can demploy in various roles.</p>
    </div>
-</div>
-
-<div style = "margin: auto;
-width: 70%;
-border:none;
-padding: 70px;
-font-size: 28px">
+   <div class = "linkz">
 	<a href="cristian-resume.pdf">Resume<br><br></a>
 	<a href="https://www.linkedin.com/in/cristian-casas/">LinkedIn<br><br></a>
 	<a href="https://github.com/caschern">Github<br><br></a>
 	<a href=" https://project-vibe.herokuapp.com/">Projects</a>
+	</div>
+	
 </div>
 
 <style>
-	.grid-container {
-	  display: grid;
-	  grid: 150px / 50% 50%;
-	  grid-gap: none;
-	  background-color:white;
-	  padding: 10px;
+	.item1 {
+		text-align: right;
 	}
-	
-	.grid-container > div {
-	  background-color: rgba(255, 255, 255, 0.8);
-	  text-align: left;
-	  padding: 10px 10px;
-	  font-size: 28px;
+	.item2 {
+		font: 1.5em sans-serif;
+		text-align: left;
+		border: .5rem outset white;
+		outline: 0.5rem solid dimgrey;
+		box-shadow: 0 0 0 2rem dimgrey;
+		border-radius: 12px;
+	}
+	.grid-container {
+		display: grid;
+		grid: 10px / auto 45% auto;
+		grid-gap: none;
+		background-color:white;
+		padding: 10px;
+	}
+	.linkz {
+		font: 2em sans-serif;
+		font-weight: bold;
+		text-align: left;
+		padding-top: 220px;
+		padding-right: 400px;
+	}
+
+	.header1{
+		padding-left: 50px;
+		text-align: left; 
+		font: 55px sans-serif;
+		border-right: 0pt;
+		border-left: 0pt;
+		border-top: 0pt; 
+		border-bottom: 2pt black solid; 
 	}
 	</style>
 </body>
